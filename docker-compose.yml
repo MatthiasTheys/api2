@@ -1,6 +1,7 @@
 version: "3.9"
 services:
- randomizer-service:
-  image: python-api-test
+ api-service:
+  image: MatthiasTheys/api_base
+
   ports:
     - "8000:8000"
