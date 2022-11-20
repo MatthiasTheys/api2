@@ -1,7 +1,7 @@
 version: "3.9"
 services:
  api-service:
-  image: MatthiasTheys/api_base
+  image: api_base
 
   ports:
     - "8000:8000"
