@@ -1,8 +1,8 @@
-#name: Deliver container
+name: Deliver container
 
-#on: push
+on: push
 
-#jobs:
+jobs:
   delivery:
     runs-on: ubuntu-latest
     name: Deliver container
