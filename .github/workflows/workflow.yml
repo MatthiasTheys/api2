@@ -1,3 +1,7 @@
+name: Push Container
+
+on: push
+
 jobs:
   delivery:
     runs-on: ubuntu-latest
