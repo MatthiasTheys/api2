@@ -1,6 +1,11 @@
 version: "3.9"
 services:
- randomizer-service:
-  image: mtheys/api_badr
+ useritem-api-service:
+  image: mtheys/python-api2-test
   ports:
     - "8000:8000"
+  volumes:
+    - sqlite_useritems_volume:/code/sqlitedb
+
+volumes:
+  sqlite_useritems_volume:
