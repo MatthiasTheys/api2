@@ -4,7 +4,6 @@ import json
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-
 import crud, models, schemas
 from database import SessionLocal, engine
 import os
