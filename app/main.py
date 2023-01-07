@@ -1,4 +1,6 @@
-from fastapi import Depends, FastAPI, HTTPException
+import secrets
+from fastapi import Depends, FastAPI, HTTPException, status
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from random import randint
 import json
 from pydantic import BaseModel
@@ -14,6 +16,8 @@ if not os.path.exists('.\sqlitedb'):
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+security = HTTPBasic()
 
 origins = [
     "http://localhost",
@@ -35,6 +39,7 @@ def get_db():
         yield db
     finally:
         db.close()
+
 
 
 @app.get("/users/", response_model=list[schemas.User])
@@ -83,5 +88,8 @@ def update_user_lift(user_id: int, lift: schemas.LiftCreate, db: Session = Depen
 def remove_user_lift(user_id: int, db: Session = Depends(get_db)):
     return crud.remove_user_lift(db=db, user_id=user_id)
 
-    
+@app.delete("/users/{user_id}", response_model=schemas.User)
+def remove_user(user_id: int, db: Session = Depends(get_db)):
+    return crud.remove_user(db=db, user_id=user_id)
+
     
