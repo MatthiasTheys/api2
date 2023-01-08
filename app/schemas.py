@@ -21,7 +21,6 @@ class UserBase(BaseModel):
 class UserCreate(UserBase):
     password: str
     id: int
-    id != 0
 
 class User(UserBase):
     id: int
