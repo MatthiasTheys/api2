@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 class LiftBase(BaseModel):
     name: str
-    amount: str
+    amount: int
     reps: int
 
 class LiftCreate(LiftBase):
@@ -21,6 +21,7 @@ class UserBase(BaseModel):
 class UserCreate(UserBase):
     password: str
     id: int
+    id != 0
 
 class User(UserBase):
     id: int
