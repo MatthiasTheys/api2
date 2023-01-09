@@ -2,8 +2,12 @@
 ##omschrijving van het project
 In dit project heb ik ervoor gekozen om een api te maken waarin iemand zich kan registreren. Vervolgens kan deze dan zijn of haar oefeningen en persoonlijke records bijhouden, gelinkt aan het profiel.
 
+##link naar okteto hosted api
+https://useritem-api-service-matthiastheys.cloud.okteto.net/docs
 
-#Screenshots gets and posts in postman
+
+
+#Screenshots postman
 ##token
 
 ![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/post_token.png?raw=true)
@@ -47,6 +51,7 @@ In dit project heb ik ervoor gekozen om een api te maken waarin iemand zich kan 
 ##remove user with email
 
 ![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/users_delete.png?raw=true)
+
 
 ##tests
 Ik heb voor dit project ook 5 tests geschreven om elk get endpoint te testen.
