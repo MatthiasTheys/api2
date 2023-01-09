@@ -6,6 +6,66 @@ In dit project heb ik ervoor gekozen om een api te maken waarin iemand zich kan 
 https://useritem-api-service-matthiastheys.cloud.okteto.net/docs
 
 
+#Screenshots OpenAPI-docs
+
+##authorize
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/auth1.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/auth2.png?raw=true)
+
+
+##token
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/token1.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/token2.png?raw=true)
+
+##current user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/user_medocs.png?raw=true)
+
+##all users
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/readusers1.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/readusers2.png?raw=true)
+
+##create user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/createuser1.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/createuser2.png?raw=true)
+
+//
+##get user with userid
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/readuseriddocs.png?raw=true)
+
+##get heaviest lift from user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/readuserheaviestdocs.png?raw=true)
+
+##get all lifts from user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/readuserliftsdocs.png?raw=true)
+
+##update lifts from user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/updateuserlift1.png?raw=true)
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/updateuserlift2.png?raw=true)
+
+##create a lift for user
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/createuserlift1.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/createuserlift2.png?raw=true)
+
+##remove a user's lift
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/removeuserliftdocs.png?raw=true)
+
+##remove user with email
+
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/removeuserdocs.png?raw=true)
+
+
 
 #Screenshots postman
 ##token
