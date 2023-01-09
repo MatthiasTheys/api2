@@ -23,7 +23,7 @@ https://useritem-api-service-matthiastheys.cloud.okteto.net/docs
 
 ![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/user_medocs.png?raw=true)
 
-Hierboven staat ook in het rood omcirkeld dat deze tab enkel gebruikt kan worden wanneer een user is ingelogd.
+Hierboven staat ook in het rood het symbool omcirkeld dat aangeeft dat deze tab enkel gebruikt kan worden wanneer een user is ingelogd.
 
 ## all users ##
 
