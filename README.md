@@ -52,4 +52,4 @@ In dit project heb ik ervoor gekozen om een api te maken waarin iemand zich kan 
 Ik heb voor dit project ook 5 tests geschreven om elk get endpoint te testen.
 Deze worden gerund met pytest en staan in het bestand test_api2.py
 
-![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/users_delete.png?raw=true)
+![alt text](https://github.com/MatthiasTheys/api2/blob/main/images/tests.png?raw=true)
