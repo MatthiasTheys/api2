@@ -8,19 +8,19 @@ def test_get_read_users_me():
     assert response.json() == {'detail': 'Not authenticated'}
 
 def test_get_read_users():
-    response = requests.get("http://localhost:8000/users/")
+    response = requests.get("http://localhost:8000/users")
     assert response.status_code == 401
     assert response.json() == {'detail': 'Not authenticated'}
 
 def test_get_read_user():
-    number = 3
+    number = 1
     response = requests.get("http://localhost:8000/users/" + (str(number)))
     assert response.status_code == 200
     assert (response.json().get('id')) == number
 
 
 def test_get_read_user_heaviest_lift():
-    response = requests.get("http://localhost:8000/users/3/heaviestlift")
+    response = requests.get("http://localhost:8000/users/1/heaviestlift")
     assert response.status_code == 200
     assert (response.json().get('amount')) > 0
 
