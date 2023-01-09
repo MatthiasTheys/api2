@@ -8,7 +8,7 @@ def test_get_read_users_me():
     assert response.json() == {'detail': 'Not authenticated'}
 
 def test_get_read_users():
-    response = requests.get("http://localhost:8000/users")
+    response = requests.get("http://localhost:8000/users/")
     assert response.status_code == 401
     assert response.json() == {'detail': 'Not authenticated'}
 

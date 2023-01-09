@@ -113,5 +113,3 @@ def remove_user_lift(user_id: int, db: Session = Depends(get_db)):
 @app.delete("/users/{user_email}", response_model=schemas.User)
 def remove_user(user_email: str, db: Session = Depends(get_db)):
     return crud.remove_user(db=db, user_email=user_email)
-
-    
