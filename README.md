@@ -1,5 +1,5 @@
 # API-Project #
-##omschrijving van het project
+## Omschrijving van het project
 In dit project heb ik ervoor gekozen om een api te maken waarin iemand zich kan registreren. Vervolgens kan deze dan zijn of haar oefeningen en persoonlijke records bijhouden, gelinkt aan het profiel.
 
 ## link naar okteto hosted api ##
